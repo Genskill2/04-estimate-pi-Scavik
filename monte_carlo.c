@@ -40,7 +40,7 @@ int main(void) {
 }
  float mc_pi(int i){
    int a=0;
-   for(int j=0;j<=i;j++){
+   for(int j=1;j<=i;j++){
      float x=frandom();
      float y=frandom();
      if((x*x+y*y)<=1)
