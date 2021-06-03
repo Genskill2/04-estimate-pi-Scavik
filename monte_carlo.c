@@ -38,6 +38,16 @@ int main(void) {
     }
   }
 }
-
+ float mc_pi(int i){
+   int a=0;
+   for(int j=0;j<=1;j++){
+     float x=frandom();
+     float y=frandom();
+     if((x*x+y*y)<=1)
+       a+=1;
+   }
+     a=a*4;
+     return (float)a/i;
+ }
 
 
